@@ -1,0 +1,38 @@
+body{
+    font-family: 'Lucida Sans';
+
+
+}
+.header{
+    background-color: lightblue;
+    border-color: black;
+    
+
+}
+.descripcion{
+    background-color: blue;
+}
+    .img-perfil{
+        border-radius:50%;
+        background-color: black;
+
+    }
+.article{
+    background-color: lightgray;
+
+}
+.exp{
+    background-color: lightcoral;
+}
+.educacion{
+    background-color: lightcyan;
+}
+.skills{
+    background-color: red;
+}
+.proyects{
+    background-color: lightseagreen;
+}
+.footer{
+    background-color: lightpink;
+}
