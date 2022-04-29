@@ -1,38 +1,124 @@
 body{
-    font-family: 'Lucida Sans';
+    font-family: "Helvetica Neue",Helvetica;
+    background-color: #dfe3ee;
 
 
 }
-.header{
-    background-color: lightblue;
-    border-color: black;
+.navbar{
+    padding: 16px;
+    
+    
     
 
 }
-.descripcion{
-    background-color: blue;
-}
-    .img-perfil{
-        border-radius:50%;
-        background-color: black;
+    #titulo{
+        font-size: 25px;
+        color: #fff;
+        padding: 10px;
+    }
+    .nav-list{
+        list-style: none;
+        display: flex;
+    }
+    .link-linkedin{
+        padding: 10px;
+        
+    }
+    .logo-linkedin{        
+        font-size: 30px;
+        color: #fff;
+    }
+    .logo-linkedin:hover{
+        color: darkgrey; 
+    }
+    
+    .link-instagram{       
+        padding: 10px;
+    }
+    .logo-instagram:hover{
+        color: darkgrey; 
 
     }
+    .logo-instagram{
+        font-size: 30px;
+        color: #fff;
+    }
+    .login{
+        font-size: 20px;
+        
+        
+        
+    }
+    
+.header{
+    background-color: #f7f7f7;
+    
+    
+
+}
+    .fotos{
+        height:auto;
+        
+
+    }
+    .banner-img{
+        border-radius: 10px;
+        
+        
+        
+        
+        
+    }
+    .img-perfil{
+        /*position: relative;  LA DEJA BIEN UBICADA PERO ROMPE TODO*/
+        bottom: 120px;
+        left: 35px;
+        border-radius: 50%; 
+        
+         
+    }
+    .me{
+        padding: 10px;
+        margin: 10px;
+    }
+        #my-name{
+            text-decoration: underline;
+            
+        }
+.descripcion{
+    background-color: #f7f7f7;
+    border: 5px solid black;
+}
 .article{
-    background-color: lightgray;
+    background-color: #f7f7f7;
+    border: 5px solid red;
+    
 
 }
 .exp{
-    background-color: lightcoral;
+    background-color: #f7f7f7;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid black;
+    
+    
 }
-.educacion{
-    background-color: lightcyan;
+    .puesto{}
+    .educ{}
 }
 .skills{
-    background-color: red;
+    background-color: #f7f7f7;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid black;
 }
 .proyects{
-    background-color: lightseagreen;
+    background-color: #f7f7f7;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid black;
 }
 .footer{
-    background-color: lightpink;
+    background-color: #f7f7f7;
+    border: 5px solid black;
 }

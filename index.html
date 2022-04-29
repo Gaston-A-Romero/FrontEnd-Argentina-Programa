@@ -1,90 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="styles.css">
     <title>Online CV</title>
 </head>
 <body>
-    <header class="header">
-        <h1>Argentina Programa-#YoProgramo</h1>
-        <a href="http://">Facebook</a>
-        <a href="http://">Twitter</a>
-        <a href="http://">Instagram</a>
-        <button type="button" class="login" id="login">Login</button>
-        <div class="banner">
-            <img src="https://blog.aulaformativa.com/wp-content/uploads/2016/06/fondos-de-pantalla-para-programadores-CodeWallpaper3-702x336.jpg" class="banner-img">
+    <nav class="navbar navbar-dark bg-dark">
+        <h1 id="titulo">#YoProgramo - Argentina Programa</h1>  
+
+        <ul class="nav-list">
+            <li><a href="https://www.linkedin.com/in/gaston-alejandro-romero/" class="link-linkedin" target="new_blank"><i class="bi bi-linkedin logo-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/gastiromero/?hl=es-la" class="link-instagram"target="new_blank"><i class="bi bi-instagram logo-instagram"></i></a> </li>
+            <li><button type="button" class="login btn btn-outline-light btn-right">Login</button></li>
+        </ul>
+        
+    </nav>
+    <header class="header container-fluid">
+        <div class="fotos">
+            <img src="https://www.xtrafondos.com/descargar.php?id=5486&resolucion=1920x1080" class="banner-img img-fluid">        
+            <img src="https://i.pinimg.com/custom_covers/222x/85498161615209203_1636332751.jpg" class="img-perfil">
         </div>
-        <!--  FORMULARIO DE LOGIN, VER DESPUES SI LO VOY A HACER CON LA COMPROBACIONES Y TODO
-        <div class="formulario-login" style="display:none">
-            <p>Usuario: <input type="text" class="form-usuario"></p>
-            <p>Contraseña: <input type="text" class="form-contraseña" ></p>            
-            <button class="form-submit">Ingresar</button>
+
+        <div class="me">
+            <h2 id="my-name">Gastón Romero </h2>
+            <h5>Estudiante de Ingeniería en Sistemas-Desarrollador Web Fullstack Jr</h5>
+            <p>Soy un estudiante de la Universidad Tecnológica Nacional de Argentina que le encanta programar, el objetivo de esta página web es probar las tecnologias tanto de html,css,bootstrap y javascript así como tambien usar distintos programas o funciones en el mismo aunque no esten especificamente relacionados con proyectos profesionales sino como hobbie de lo que puedo lograr con mi conocimiento. Mis principales intereses son tanto la programación y la tecnología en general como tambien la música y los instrumentos.
+            <br>
+            Siempre fui una persona a la que le encanta entender las cosas y constantemente me presiono para saber porque una cosa esta hecha de la forma en la que esta y cual es su objetivo, trato de estar informado a las noticias del día y siempre estoy buscando nuevos retos y conocimiento para poder desarrollarme tanto como persona como un buen ingeníero en sistemas.
+            </p>
+        
+        <button style="display:none">Modificar descripcion</button>
         </div>
-        -->
     </header>
-    <div class="descripcion">
-        <img src="https://i.pinimg.com/custom_covers/222x/85498161615209203_1636332751.jpg" class="img-perfil">
-        <h1>Acerca de mí</h1>
-        <h2>Nombre </h2>
-        <h2>Titulo</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus veniam, voluptatem blanditiis quidem id a repellendus eius porro, soluta cumque rem vel, voluptatibus iure enim asperiores quia facilis ea labore.</p>
-        <button>Modificar descripcion</button>
-    </div>
-    <article class="article">
+
+    <article class="article container-fluid">
 
 
         <section class="exp">
-            <button>Agregar experiencia</button>
+            <button style="display:none">Agregar experiencia</button>
 
             <div class="puesto">
                 <img src="" class="logo-empresa">
                 <h1>Puesto</h1>
                 <h2>Periodo</h2>
                 <p>Description</p>
-                <button>Modificar puesto</button>
-                <button>Borrar puesto</button>
+                <button style="display:none">Modificar puesto</button>
+                <button style="display:none">Borrar puesto</button>
 
             </div>
 
-
-
-        </section>
-        <section class="educacion">
-            <button>Agregar educacion</button>
-
             <div class="educ">
+                <button style="display:none">Agregar educacion</button>
                 <img src="" class="logo-empresa">
                 <h1>Formacion</h1>
                 <h2>Año</h2>
                 <p>Description</p>
-                <button>Modificar educacion</button>
-                <button>Borrar educacion</button>
+                <button style="display:none">Modificar educacion</button>
+                <button style="display:none">Borrar educacion</button>
 
             </div>
-
         </section>
+
+        
         <section class="skills">
-            <button>Agregar skill</button>
+            
             <div class="skill">
-                <ul>Linux</ul> <button>Borrar skill</button>
-                
+                <button style="display:none">Agregar skill</button>
+                <button style="display:none">Borrar skill</button>
+                <ul>
+                    <li>Python</li>
+                    <li>Linux</li>
+                </ul>
             </div>
             
             
         </section>
         <section class="proyects">
-            <button>Agregar proyecto</button>
+            <button style="display:none">Agregar proyecto</button>
             <div class="galeria-proyectos">
                 <div class="carta-proyecto">
-                    <h1>Nombre</h1>
+                    <h1>Proyecto</h1>
                     <p>descripcion</p>
                     <button>Link directo</button>
                     <button>Repo</button>
-                    <button>Modificar proyecto</button>
-                    <button>Borrar proyecto</button>
+                    <button style="display:none">Modificar proyecto</button>
+                    <button style="display:none">Borrar proyecto</button>
                 </div>
             </div>
         </section>
@@ -95,7 +100,7 @@
 
 
     </article>
-    <footer class="footer">
+    <footer class="footer container-fluid">
         <p>Pagina elaborada por Gaston Romero</p>
         <button class="formulario-contacto">
             Trabajemos Juntos!!!
