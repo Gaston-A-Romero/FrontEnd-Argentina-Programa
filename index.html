@@ -4,109 +4,148 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="styles.css">
     <title>Online CV</title>
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-dark">
-        <h1 id="titulo">#YoProgramo - Argentina Programa</h1>  
+    <nav class="navbar navbar-dark bg-dark ">
 
-        <ul class="nav-list">
-            <li><a href="https://www.linkedin.com/in/gaston-alejandro-romero/" class="link-linkedin" target="new_blank"><i class="bi bi-linkedin logo-linkedin"></i></a></li>
-            <li><a href="https://www.instagram.com/gastiromero/?hl=es-la" class="link-instagram"target="new_blank"><i class="bi bi-instagram logo-instagram"></i></a> </li>
-            <li><button type="button" class="login btn btn-outline-light btn-right">Login</button></li>
-        </ul>
+        <h1 id="titulo"><img src="src/ArgP-logo.png" class="logo-argentinaprograma"/></h1>  
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbaroculta">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbaroculta">
+            <ul class="nav-list navbar-nav ">
+                <li class="nav-item"><a href="https://github.com/Gaston-A-Romero/Gaston-A-Romero" class="link-github nav-link" target="new_blank">GitHub<i class="bi bi-github logo-github"></i></a></li>
+
+                <li class="nav-item"><a href="https://www.linkedin.com/in/gaston-alejandro-romero/" class="link-linkedin nav-link" target="new_blank">Linked<i class="bi bi-linkedin"></i></a></li>
+
+                <li class="nav-item"><a href="https://www.instagram.com/gastiromero/?hl=es-la" class="link-instagram nav-link"target="new_blank"><i class="bi bi-instagram"></i>Instagram</a> </li>
+
+                <li class="nav-item"><button type="button" class="login btn btn-outline-light btn-right" onclick=alert("Funciona")>Login</button></li>
+            </ul>
+        </div>
         
     </nav>
     <header class="header container-fluid">
         <div class="fotos">
             <img src="https://www.xtrafondos.com/descargar.php?id=5486&resolucion=1920x1080" class="banner-img img-fluid">        
-            <img src="https://i.pinimg.com/custom_covers/222x/85498161615209203_1636332751.jpg" class="img-perfil">
+            <img src="https://cdn-icons-png.flaticon.com/128/3011/3011270.png" class="img-perfil">
         </div>
-
+        
         <div class="me">
             <h2 id="my-name">Gastón Romero </h2>
-            <h5>Estudiante de Ingeniería en Sistemas-Desarrollador Web Fullstack Jr</h5>
-            <p>Soy un estudiante de la Universidad Tecnológica Nacional de Argentina que le encanta programar, el objetivo de esta página web es probar las tecnologias tanto de html,css,bootstrap y javascript así como tambien usar distintos programas o funciones en el mismo aunque no esten especificamente relacionados con proyectos profesionales sino como hobbie de lo que puedo lograr con mi conocimiento. Mis principales intereses son tanto la programación y la tecnología en general como tambien la música y los instrumentos.
-            <br>
-            Siempre fui una persona a la que le encanta entender las cosas y constantemente me presiono para saber porque una cosa esta hecha de la forma en la que esta y cual es su objetivo, trato de estar informado a las noticias del día y siempre estoy buscando nuevos retos y conocimiento para poder desarrollarme tanto como persona como un buen ingeníero en sistemas.
-            </p>
-        
+            <h5>Estudiante de Ingeniería en Sistemas</h5>       
+            <h5>Desarrollador Web Fullstack Jr</h5>
+            <button class="btn btn-primary" onclick=alert("formulario")>Contactame</button>       
         <button style="display:none">Modificar descripcion</button>
         </div>
+        
     </header>
+
+    <div class="descripcion container-fluid">
+        <h1 id="about-me">Sobre mí</h1>
+        <p class="texto-yo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error laboriosam quia quae possimus atque, inventore excepturi quidem, veniam nam quo suscipit? Nostrum culpa nulla, minus atque maxime adipisci ex harum.
+        Iusto facere corporis iure odit esse. Beatae, debitis. Sunt, incidunt nulla excepturi ex corrupti sit debitis minus reiciendis, accusamus rerum, quisquam quia ducimus molestiae dolores quibusdam delectus fugit asperiores hic?
+        Aut error dignissimos nostrum voluptatibus officia? At natus, quia officiis modi earum labore necessitatibus accusamus, ab aut dolorem nostrum totam voluptas in eveniet ipsum ipsam nulla ullam, eligendi rerum placeat!</p>
+        <button class="modificar" style="display:none"></button>
+
+    </div>
 
     <article class="article container-fluid">
 
 
-        <section class="exp">
-            <button style="display:none">Agregar experiencia</button>
 
-            <div class="puesto">
-                <img src="" class="logo-empresa">
-                <h1>Puesto</h1>
-                <h2>Periodo</h2>
-                <p>Description</p>
-                <button style="display:none">Modificar puesto</button>
-                <button style="display:none">Borrar puesto</button>
+        <section class="exp">           
 
+            <!-- <div class="jobs">
+                <h1 id="expe">Experiencia</h1>
+                <div class="puesto">
+                    <img src="" class="logo-empresa">
+                    <h2>Puesto</h2>
+                    <h3>Periodo</h3>
+                    <p>Description</p>
+                    <button style="display:none">Modificar puesto</button>
+                    <button style="display:none">Borrar puesto</button>
+                </div>
+            
+            </div>> -->
+            <div class="tabla-trabajos">
+                <h1 id="expe">Experiencia</h1>
+
+                <table class="table">
+                    <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">id</th>
+                        <th scope="col">Puesto</th>
+                        <th scope="col">Periodo</th>
+                        <th scope="col">Descripcion</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Vail</td>
+                        <td>2019</td>
+                        <td>Retail</td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
 
             <div class="educ">
-                <button style="display:none">Agregar educacion</button>
-                <img src="" class="logo-empresa">
-                <h1>Formacion</h1>
-                <h2>Año</h2>
-                <p>Description</p>
+                <h1 id="education">Educación</h1>
+                <div class="row">
+                    <div class="col-xs-12 col-md-4 col-lg-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Formacion Inicial</h5>
+                          <p class="card-text">Colegio San Jose</p>
+                          <p>2016</p>
+                        </div>
+                      </div>
+                    </div>
                 <button style="display:none">Modificar educacion</button>
                 <button style="display:none">Borrar educacion</button>
 
             </div>
         </section>
+    </article>
 
         
-        <section class="skills">
+        <div class="skills container-fluid">
+            <h3 class="habilidades">Tecnologías</h3>
             
-            <div class="skill">
-                <button style="display:none">Agregar skill</button>
-                <button style="display:none">Borrar skill</button>
-                <ul>
-                    <li>Python</li>
-                    <li>Linux</li>
-                </ul>
+            <div class="skill row">
+                
+                <span class="tecnologia col-4">Python</span>
+                <span class="tecnologia col-4">Linux</span>
+                <span class="tecnologia col-4">SQL</span>
+                <span class="tecnologia col-4">Java</span>
+                <span class="tecnologia col-4">Javascript</span>
+                <span class="tecnologia col-4">Bootstrap</span>
+                
             </div>
             
             
-        </section>
-        <section class="proyects">
-            <button style="display:none">Agregar proyecto</button>
-            <div class="galeria-proyectos">
-                <div class="carta-proyecto">
-                    <h1>Proyecto</h1>
-                    <p>descripcion</p>
-                    <button>Link directo</button>
-                    <button>Repo</button>
-                    <button style="display:none">Modificar proyecto</button>
-                    <button style="display:none">Borrar proyecto</button>
+        </div>
+        <div class="proyects">
+            <h1 class="proyec">Proyectos</h1>
+            
+            <div class="card" style="width: 20rem; margin: 10px;">
+                <img class="card-img-top img-fluid" src="https://www.avanzaentucarrera.com/orientacion/comp/uploads/2021/11/AETC_Haz-tu-CV.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-center">CV Online</h5>
+                  <p class="card-text text-center">CV hecho con angular y springboot</p>
+                  <a href="#" class="btn btn-dark boton-proyecto" target="new_blank">Link</a>
+                  <a href="#" class="btn btn-dark boton-proyecto" target="new_blank">Repositorio</a>
                 </div>
-            </div>
-        </section>
-
-
-
-
-
-
-    </article>
-    <footer class="footer container-fluid">
-        <p>Pagina elaborada por Gaston Romero</p>
-        <button class="formulario-contacto">
-            Trabajemos Juntos!!!
-        </button>
-
-    </footer>
+              </div>
+        </div>
     
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

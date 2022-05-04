@@ -1,81 +1,81 @@
 body{
     font-family: "Helvetica Neue",Helvetica;
     background-color: #dfe3ee;
+    
 
 
 }
 .navbar{
-    padding: 16px;
+    padding: 5px;
     
     
     
 
 }
-    #titulo{
-        font-size: 25px;
-        color: #fff;
-        padding: 10px;
+    .logo-argentinaprograma{
+        width: 180px;
+        height: 100px;
     }
     .nav-list{
         list-style: none;
         display: flex;
+        
     }
+    .nav-link{
+        color: #fff !important;
+        
+    }
+    .nav-link:hover{
+        color: darkgrey !important;
+    }
+    .nav-item{
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        color: #fff;
+        
+        
+    
+    }
+    .link-github{
+        padding: 10px;
+    }
+
     .link-linkedin{
         padding: 10px;
         
     }
-    .logo-linkedin{        
-        font-size: 30px;
-        color: #fff;
-    }
-    .logo-linkedin:hover{
-        color: darkgrey; 
-    }
-    
     .link-instagram{       
         padding: 10px;
-    }
-    .logo-instagram:hover{
-        color: darkgrey; 
-
-    }
-    .logo-instagram{
-        font-size: 30px;
-        color: #fff;
+       
     }
     .login{
-        font-size: 20px;
-        
+        font-size: 20px;     
         
         
     }
     
 .header{
     background-color: #f7f7f7;
-    
+    margin: 10px;
+    border-radius: 10px;
     
 
 }
-    .fotos{
-        height:auto;
-        
-
-    }
     .banner-img{
         border-radius: 10px;
-        
-        
-        
-        
-        
+        z-index: 1;  
     }
     .img-perfil{
-        /*position: relative;  LA DEJA BIEN UBICADA PERO ROMPE TODO*/
-        bottom: 120px;
-        left: 35px;
+        bottom: 80px;
+        left: 40px;
+        width: 120px;
+        height: 120px;
         border-radius: 50%; 
-        
-         
+        position: relative;
+        z-index: 2;
+    
     }
     .me{
         padding: 10px;
@@ -87,11 +87,27 @@ body{
         }
 .descripcion{
     background-color: #f7f7f7;
-    border: 5px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    
 }
+    #about-me{
+        font: size 20px;
+        padding: 10px;
+        margin: 10px;
+        text-decoration: underline;
+    }
+    .texto-yo{
+        padding: 10px;
+        margin: 10px;
+        font-size: 18px;
+    }
 .article{
     background-color: #f7f7f7;
-    border: 5px solid red;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
     
 
 }
@@ -99,26 +115,72 @@ body{
     background-color: #f7f7f7;
     padding: 10px;
     margin: 10px;
-    border: 5px solid black;
+    
     
     
 }
-    .puesto{}
-    .educ{}
-}
+    #expe{
+        text-decoration: underline;
+    }
+    .puesto{
+        margin-left: 20px;
+        
+    }
+    #education{
+        text-decoration: underline;
+        margin-bottom: 20px;
+        
+    }
+
 .skills{
     background-color: #f7f7f7;
     padding: 10px;
     margin: 10px;
-    border: 5px solid black;
+    border-radius: 10px;
 }
+    .habilidades{
+        text-decoration: underline;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+
+    }
+    .skill{
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .tecnologia{
+        border-radius: 5px;
+        background-color: lightgray;
+        padding: 5px;
+        margin: 15px;
+        font-size: 20px;
+        font-style: italic;
+        text-align: center;
+        box-shadow: 8px 3px 3px black;;
+        
+
+    }
 .proyects{
     background-color: #f7f7f7;
     padding: 10px;
     margin: 10px;
-    border: 5px solid black;
+    border-radius: 10px;
 }
-.footer{
-    background-color: #f7f7f7;
-    border: 5px solid black;
-}
+    .proyec{
+        text-decoration: underline;
+        text-align: center;
+    }
+    .card-body{
+        padding: 10px;
+        
+    }
+    .boton-proyecto{
+        display: inline-block;
+        justify-content: center;
+        margin: 10px;
+        width: 40%;
+
+    }
+
