@@ -1,13 +1,16 @@
 body{
     font-family: "Helvetica Neue",Helvetica;
     background-color: #dfe3ee;
+    padding-right: 10px;
+    
     
 
 
 }
 .navbar{
-    padding: 5px;
-    
+    padding: 10px;
+    margin: 10px; 
+    width: 100%;   
     
     
 
@@ -58,14 +61,18 @@ body{
     
 .header{
     background-color: #f7f7f7;
-    margin: 10px;
     border-radius: 10px;
+    margin: 10px;
     
 
 }
+    .profile-pic{
+        height: 20px;
+    }
     .banner-img{
         border-radius: 10px;
         z-index: 1;  
+        padding: 10px;
     }
     .img-perfil{
         bottom: 80px;
@@ -75,11 +82,15 @@ body{
         border-radius: 50%; 
         position: relative;
         z-index: 2;
+        padding: 10px;
+        
+        
     
     }
     .me{
         padding: 10px;
         margin: 10px;
+       
     }
         #my-name{
             text-decoration: underline;
@@ -119,6 +130,10 @@ body{
     
     
 }
+    .tabla-trabajos{
+        text-align: center;
+        border: solid 2px darkgrey;
+    }
     #expe{
         text-decoration: underline;
     }
@@ -167,6 +182,7 @@ body{
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
+    width: 100%;
 }
     .proyec{
         text-decoration: underline;
