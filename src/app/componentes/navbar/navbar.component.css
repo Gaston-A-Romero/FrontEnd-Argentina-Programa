@@ -1,0 +1,52 @@
+.navbar{
+    padding: 10px;
+    margin: 10px; 
+    width: 100%;   
+    
+    
+
+}
+    .logo-argentinaprograma{
+        width: 180px;
+        height: 100px;
+    }
+    .nav-list{
+        list-style: none;
+        display: flex;
+        
+    }
+    .nav-link{
+        color: #fff !important;
+        
+    }
+    .nav-link:hover{
+        color: darkgrey !important;
+    }
+    .nav-item{
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        color: #fff;
+        
+        
+    
+    }
+    .link-github{
+        padding: 10px;
+    }
+
+    .link-linkedin{
+        padding: 10px;
+        
+    }
+    .link-instagram{       
+        padding: 10px;
+       
+    }
+    .login{
+        font-size: 20px;     
+        
+        
+    }
+    

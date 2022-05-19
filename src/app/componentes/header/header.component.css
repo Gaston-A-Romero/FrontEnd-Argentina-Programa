@@ -1,0 +1,55 @@
+.header{
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    margin: 10px;
+    
+
+}
+    .profile-pic{
+        height: 20px;
+    }
+    .banner-img{
+        border-radius: 10px;
+        z-index: 1;  
+        padding: 10px;
+    }
+    .img-perfil{
+        bottom: 80px;
+        left: 40px;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%; 
+        position: relative;
+        z-index: 2;
+        padding: 10px;
+        
+        
+    
+    }
+    .me{
+        padding: 10px;
+        margin: 10px;
+       
+    }
+        #my-name{
+            text-decoration: underline;
+            
+        }
+.descripcion{
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    
+}
+    #about-me{
+        font: size 20px;
+        padding: 10px;
+        margin: 10px;
+        text-decoration: underline;
+    }
+    .texto-yo{
+        padding: 10px;
+        margin: 10px;
+        font-size: 18px;
+    }

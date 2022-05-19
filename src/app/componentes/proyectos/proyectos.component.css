@@ -1,0 +1,22 @@
+.proyects{
+    background-color: #f7f7f7;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+    .proyec{
+        text-decoration: underline;
+        text-align: center;
+    }
+    .card-body{
+        padding: 10px;
+        
+    }
+    .boton-proyecto{
+        display: inline-block;
+        justify-content: center;
+        margin: 10px;
+        width: 40%;
+
+    }
